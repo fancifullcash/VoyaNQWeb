@@ -13,6 +13,7 @@ namespace VOYANQWeb
 {
     public class Startup
     {
+        //add comments
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
