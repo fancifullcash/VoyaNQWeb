@@ -11,12 +11,12 @@ namespace VOYANQWeb
 {
     public class Program
     {
-        //add code here 
+        //add code here agian
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
         }
-
+        //addd more comments
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
