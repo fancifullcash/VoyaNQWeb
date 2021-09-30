@@ -24,12 +24,14 @@ namespace VOYANQWeb
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // added lot of code 
             services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            //dur bal
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
