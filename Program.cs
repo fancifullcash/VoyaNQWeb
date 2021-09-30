@@ -21,6 +21,7 @@ namespace VOYANQWeb
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    //add more
                     webBuilder.UseStartup<Startup>();
                 });
     }
